@@ -1,0 +1,17 @@
+[
+    {
+        "email": "umukorodaniel8609@gmail.com",
+        "name": "Daniel ",
+        "password": "scrypt:32768:8:1$oyXXSD3aAqwu1qVi$8b1c4eea8d64e870e707a83e8ba66a1093c16019c3f9b08cf5ac2daf83d7c4e7187c7d8141cf22bafbcc4a0d193acf02d696d3d01301e12dd2b49bd0af5ab3fd"
+    },
+    {
+        "email": "dannyfavour23456789@gmail.com",
+        "name": "Daniel Umukoro",
+        "password": "scrypt:32768:8:1$xteapd3Lrfqonmnn$c028b1df6ab78527307bfa49c3cb6a5f2a62264ce0409117dc9e119d2e97c6f09b81f0260cc9b7662fb5074c97d64fb6bec5192bd5d457d9943e7500c1966a12"
+    },
+    {
+        "email": "gffgame22@gmail.com",
+        "name": "Daniel Umukoro",
+        "password": "scrypt:32768:8:1$rjqiDCkMlIlSTiLK$abbb27ec1d6b0f89bad000af86089b25cabc4a2555291bd961d8c4fc8f94f7c22206d78a3d4ddf515e3b11b446282f345f8b83d79196b78b6a0c1b66f4acbe2b"
+    }
+]

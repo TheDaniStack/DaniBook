@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %} DaniBook | Login {% endblock %}
+
+{% block content %}
+
+<form action="{{ url_for('login') }}" method="POST">
+
+  <label for="login-email">Email</label>
+  <input id="login-email" type="email" name="login-email" placeholder="example@email.com" required>
+
+  <label for="login-password">Password</label>
+  <input id="login-password" type="password" name="login-password" placeholder="Enter your password" required>
+
+  <button type="submit">Submit</button>
+  
+</form>
+
+{% endblock %}

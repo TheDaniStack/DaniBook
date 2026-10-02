@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %} DaniBook | Services {% endblock %}
+
+{% block content %}
+
+<h1>Our Photography Services</h1>
+
+{% for service in services %}
+
+  <h2>{{ service.name }}</h2>
+  
+  <p>{{ service.description }}</p>
+  <p>{{ service.duration }}</p>
+  <p>₦{{ service.price | format_price }}</p>
+
+    <ul>
+      {% for service_include in service.includes %}
+      <li>{{ service_include }}</li>
+      {% endfor %}
+    </ul>
+
+  <a href="{{ url_for('booking', service=service.name) }}">Book This Service</a>
+
+{% endfor %}
+
+{% endblock %}

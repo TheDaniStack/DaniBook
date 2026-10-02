@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Portrait Session",
+    "duration": "1 hour",
+    "price": 50000,
+    "description": "A personal portrait session designed to capture polished, natural images.",
+    "includes": [
+      "1 outfit",
+      "8 edited photos"
+    ]
+  },
+  {
+    "name": "Professional Headshots",
+    "duration": "45 minutes",
+    "price": 20000,
+    "description": "A focused session for polished professional profile and business images.",
+    "includes": [
+      "2 looks",
+      "5 edited pictures"
+    ]
+  },
+  {
+    "name": "Couples Session",
+    "duration": "1 hour",
+    "price": 45000,
+    "description": "A relaxed session designed to capture natural moments and connection between couples.",
+    "includes": [
+      "2 outfits",
+      "10 edited photos"
+    ]
+  },
+  {
+    "name": "Family/Group Session",
+    "duration": "90 minutes",
+    "price": 55000,
+    "description": "A group photography session for families and small groups, capturing both posed and natural moments.",
+    "includes": [
+      "2 outfits",
+      "15 edited photos"
+    ]
+  }
+]

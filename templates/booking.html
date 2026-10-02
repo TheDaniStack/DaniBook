@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %} DaniBook | Book a session {% endblock %}
+
+{% block content %}
+
+<h1>Book  Photography Session</h1>
+<h2>Selected Service: {{ selected_service }}</h2>
+<p>{{ error }}</p>
+
+<form action="{{ url_for('booking') }}" method="POST">
+
+  <input type="hidden" name="service" value="{{ selected_service }}">
+
+  <label for="date">Date:</label>
+  <input type="date" id="date" name="date" placeholder="Select a date" required>
+
+  <label for="time">Time:</label>
+  <input id="time" type="time" name="time" placeholder="Select a time" required>
+
+  <label for="number">Phone Number:</label>
+  <input id="number" name="phone-number" type="tel" placeholder="Enter your phone number" required>
+
+  <textarea name="user-text" placeholder="Optional"></textarea>
+
+  <button type="submit">Submit</button>
+  
+</form>
+  
+{% endblock %}

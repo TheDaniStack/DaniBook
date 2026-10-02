@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %} DaniBook | my Bookings {% endblock %}
+
+{% block content %}
+
+<h1>My Bookings</h1>
+
+<p>Hello {{ logged_in_user['name'] }} </p>
+<p>Email: {{ logged_in_user['email'] }} </p>
+
+<p>Your bookings will appear here.</p>
+
+
+{% endblock %}
